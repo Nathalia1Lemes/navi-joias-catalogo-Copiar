@@ -1,0 +1,48 @@
+NAVI JOIAS — CATÁLOGO INICIAL
+=============================
+
+ARQUIVOS
+- index.html: estrutura do site
+- style.css: cores, fontes, espaçamentos e versão para celular
+- script.js: produtos, filtros e links de contato
+
+COMO VISUALIZAR NO SEU COMPUTADOR
+1. Extraia o arquivo ZIP para uma pasta.
+2. Abra a pasta.
+3. Dê dois cliques em index.html para abrir no navegador.
+4. É necessário estar conectada à internet para carregar as fontes e fotos ilustrativas.
+
+COMO COLOCAR O WHATSAPP
+1. Abra script.js em um editor de texto ou no Visual Studio Code.
+2. No começo do arquivo, encontre: const whatsappNumber = "";
+3. Coloque entre aspas o número com código do Brasil + DDD + número, só números.
+   Exemplo fictício: const whatsappNumber = "5511999999999";
+4. Salve o arquivo.
+
+COMO COLOCAR O INSTAGRAM
+No começo de script.js, altere instagramUrl para o endereço completo do perfil.
+Exemplo: const instagramUrl = "https://www.instagram.com/navi.joias/";
+
+COMO ALTERAR PRODUTOS
+No arquivo script.js, dentro da lista products:
+- name: nome da peça
+- category: colares, brincos, aneis ou pulseiras
+- price: preço exibido no catálogo
+- description: descrição curta
+- tag: selo opcional, como "NOVIDADE" (deixe "" para não mostrar)
+- image: endereço da foto
+
+As fotos atuais e os preços são apenas ilustrativos. Troque tudo pelas informações reais antes de divulgar.
+
+COMO ALTERAR CORES E FONTES
+Abra style.css. As principais cores estão no início, dentro de :root.
+--wine = bordô
+--gold = dourado
+--cream = fundo creme
+As fontes Cormorant Garamond e Montserrat são carregadas do Google Fonts.
+
+PUBLICAÇÃO
+Este projeto é estático e pode ser publicado em serviços de hospedagem de sites estáticos, como GitHub Pages ou Netlify. Para publicar e ter um link permanente, será necessário seguir os passos da plataforma escolhida. Não há carrinho nem pagamento online nesta versão; os pedidos são direcionados ao WhatsApp.
+
+LOGO OFICIAL
+O arquivo logo-navi.jpg fica na mesma pasta dos arquivos HTML/CSS/JS. Ele é usado no cabeçalho, no selo circular do banner e no rodapé. Se trocar a logo, mantenha o mesmo nome de arquivo ou atualize o caminho no index.html.
