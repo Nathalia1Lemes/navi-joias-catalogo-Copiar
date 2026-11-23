@@ -10,259 +10,259 @@ const instagramUrl = "https://www.instagram.com/navijoias_/";   // Exemplo: "htt
 const products = [
   {
     id: 1, name: "Colar Duplo Folheado Coração", category: "colares", price: "R$ 39,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image: "Imagens/Colar_duplo.jpeg"
   },
   {
     id: 2, name: "Kit 2 Pares + Piercing Fake", category: "brincos", price: "R$ 40,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image: "Imagens/Brinco_trio_prata.jpeg"
   },
   {
     id: 3, name: "Anel Solitário + Riviera ", category: "aneis", price: "R$ 42,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image: "Imagens/Anel_Riviera.jpeg"
   },
   {
     id: 4, name: "Pulseira Foheada Cartier", category: "pulseiras", price: "R$ 24,98",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image: "Imagens/Pulseira_cartie.jpeg"
   },
   {
     id: 5, name: "Colar Veneziana Esfera Tam. P", category: "colares", price: "R$ 20,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image: "Imagens/Colar_esfera_P.jpeg"
   },
   {
     id: 6, name: "Mini Argola Zircônia Colorido", category: "brincos", price: "R$ 29,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image: "Imagens/Brinco_argolinha_colorido.jpeg"
   },
   {
     id: 7, name: "Anel Aço Inoxidável Tubo Fino", category: "aneis", price: "R$ 24,50",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image: "Imagens/Anel_redondo.jpeg"
   },
   {
     id: 8, name: "Pulseira Insp. CD Aço Inodável - Dourado", category: "pulseiras", price: "R$ 25,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image: "Imagens/Pulseira_insp_dourada.jpeg"
   },
   {
     id: 9, name: "Conjunto Algema Inspiração Virgina", category: "conjuntos", price: "R$ 49,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Conjunto_virginia.jpeg"
   },
   {
     id: 10, name: "Bracelete Cristal Coração Verde", category: "braceletes", price: "R$ 29,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Bracelete.jpeg"
   },
   {
     id: 11, name: "Colar Gota Cristal - Prata", category: "colares", price: "R$ 27,50",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Colar_gota.jpeg"
   },
   {
     id: 12, name: "Conjunto Folheado Gravatinha Gota Vermelha", category: "conjuntos", price: "R$ 49,99 ",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Conjunto_gravata_pedra_vermelha.jpeg"
   },
   {
     id: 13, name: "Pulseira Folheada Coração", category: "pulseiras", price: "R$ 23,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_medalha_coração.jpeg"
   },
   {
     id: 14, name: "Colar Folheado Nossa Senhora Cravejado", category: "colares", price: "R$ 39,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Colar_nossasenhora.jpeg"
   },
   {
     id: 15, name: "Brinco Longo Ponto de Luz", category: "brincos", price: "R$ 22,50",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Brinco_longo_dourado.jpeg"
   },
   {
     id: 16, name: "Colar Folheado Perola", category: "colares", price: "R$ 32,50",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Colar_perola.jpeg"
   },
   {
     id: 17, name: "Colar Folheado Oval", category: "colares", price: "R$ 29,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Colar_oval.jpeg"
   },
   {
     id: 18, name: "Pulseira Folheada Corações Vazados", category: "pulseiras", price: "R$ 23,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_coração_vazado.jpeg"
   },
   {
     id: 19, name: "Pulseira Zircônia Rosa", category: "pulseiras", price: "R$ 29,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_riviera_rosabebe.jpeg"
   },
   {
     id: 20, name: "Brinco Zircônia Cristal - Prata", category: "brincos", price: "R$ 29,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Brinco_prata.jpeg"
   },
   {
     id: 21, name: "Pulseira Hand Chain Estrela Zircônia", category: "pulseiras", price: "R$ 35,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_dedos1.jpeg"
   },
   {
     id: 22, name: "Pulseira Folheada Medalinhas", category: "pulseiras", price: "R$ 23,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_medalinha.jpeg"
   },
   {
     id: 23, name: "Anel Cravejado Reto Zircônia - Regulavél", category: "aneis", price: "R$ 22,25",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_prata.jpeg"
   },
   {
     id: 24, name: "Colar Riviera Menino Colorido", category: "colares", price: "R$ 42,98",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Colar_menino.jpeg"
   },
   {
     id: 25, name: "Pingente Menino Riviera Colorido", category: "pingentes", price: "R$ 9,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pingente_menino.jpeg"
   },
   {
     id: 26, name: "Anel Aço Inoxidável Coração Vazado", category: "aneis", price: "R$ 18,00",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_coração_vazado.jpeg"
   },
   {
     id: 27, name: "Colar Riviera Inicial - Dourado", category: "colares", price: "R$ 47,00",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Colar_letraR.jpeg"
   },
   {
     id: 28, name: "Pulseira Insp. CD Aço Inodável - Prata", category: "pulseiras", price: "R$ 25,90",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_insp_prata.jpeg"
   },
   {
     id: 29, name: "Anel Solitário Coração Amarelo", category: "aneis", price: "R$ 22,50",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_coração_amarelo.jpeg"
   },
   {
     id: 30, name: "Pulseira Flor 4 Pétalas Colorido", category: "pulseiras", price: "R$ 47,80",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_flor.jpeg"
   },
   {
     id: 31, name: "Anel Letra Cravejado Regulável - Prata", category: "aneis", price: "R$ 25,00",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_letra_M.jpeg"
   },
   {
     id: 32, name: "Colar Riviera Inicial - Prata", category: "colares", price: "R$ 47,00",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Colar_letraV.jpeg"
   },
   {
     id: 33, name: "Pulseira Riviera Folheada", category: "", price: "R$ 47,80",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_riviera.jpeg"
   },
   {
     id: 34, name: "Anel Letra Cravejado Regulável - Dourado", category: "aneis", price: "R$ 25,00",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_letra_J.jpeg"
   },
   {
     id: 35, name: "Pulseira Trio Flores Cravejada", category: "pulseiras", price: "R$ 39,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Pulseira_flores_prata.jpeg"
   },
   {
     id: 36, name: "Anel Pizza - Dourado", category: "aneis", price: "R$ 22,25",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_pizza_dourado.jpeg"
   },
   {
     id: 37, name: "Anel Cristal Oval Turquesa", category: "aneis", price: "R$ 23,00",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_azul.jpeg"
   },
   {
     id: 38, name: "Brinco Earcuff Cristal - Dourado", category: "brincos", price: "R$ 34,00",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Brinco_pedras_dourado.jpeg"
   },
   {
     id: 39, name: "Anel Solitário Oval Premium", category: "aneis", price: "R$ 24,50",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_zirconia_dourado.jpeg"
   },
   {
     id: 40, name: "Anel Pizza - Prata", category: "aneis", price: "R$ 22,25",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_pizza_prata.jpeg"
   },
   {
     id: 41, name: "Anel Coração Cravejado - Prata", category: "aneis", price: "R$ 19,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_coração_prata.jpeg"
   },
   {
     id: 42, name: "Brinco Earcuff Cristal - Prata", category: "brincos", price: "R$ 34,00",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Brinco_pedras_prata.jpeg"
   },
   {
     id: 43, name: "Anel Coração Cravejado - Dourado", category: "aneis", price: "R$ 19,99",
-    description: "Delicadeza que mora nos detalhes.",
+    description: "",
     tag: "",
     image:"Imagens/Anel_coração_dourado.jpeg"
   }
