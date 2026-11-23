@@ -45,9 +45,8 @@ h1 em, h2 em { color: var(--gold-light); font-weight: 400; }
 .button-gold { background: var(--gold); color: var(--wine-dark); border: 1px solid var(--gold); }
 .button-gold:hover { background: var(--gold-light); }
 .hero-footnote { margin-top: 26px; color: #d4bdbf; font: italic 17px var(--serif); }
-.hero-image-wrap { position: relative; min-height: 570px; padding: 42px 12% 42px 0; }
-.hero-image { width: 100%; height: 100%; min-height: 480px; background: linear-gradient(0deg, rgba(61,11,25,.1), rgba(61,11,25,.02)), url("https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=85") center/cover; }
-.hero-stamp { position: absolute; left: 0; bottom: 90px; width: 114px; height: 114px; border: 1px solid var(--gold); border-radius: 50%; background: var(--wine); display: flex; flex-direction: column; justify-content: center; align-items: center; color: var(--gold-light); transform: translateX(-35%); }
+.hero-image-wrap { position: relative; min-height: 570px; padding: 42px 12% 42px 0; display: flex; }
+.hero-image { width: 100%; min-height: 480px; background: linear-gradient(0deg, rgba(61,11,25,.1), rgba(61,11,25,.02)), url("Imagens/Anel_Riviera.jpeg"); background-size: cover; background-position: center 20%;  background-repeat: no-repeat; }
 .hero-stamp span { font: 40px var(--serif); line-height: 1; }
 .hero-stamp small { margin-top: 6px; text-align: center; font-size: 6px; letter-spacing: .15em; line-height: 1.7; }
 .hero-caption { position: absolute; right: 9%; bottom: 24px; color: #fff8ed; font: italic 18px var(--serif); }
@@ -85,7 +84,7 @@ h2 { color: var(--wine); font-size: clamp(38px, 4vw, 54px); line-height: 1.02; }
 .quote-banner p { margin: 14px 0 20px; font: 31px/1.15 var(--serif); }
 .quote-banner span { color: var(--gold); font-size: 8px; letter-spacing: .3em; }
 .about { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 9%; background: var(--white); }
-.about-image { min-height: 420px; background: url("https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1000&q=85") center/cover; }
+.about-image { min-height: 420px; background: url("Imagens/Bracelete.jpeg") center/cover; }
 .about-copy { max-width: 480px; }
 .about-copy .eyebrow { margin-bottom: 16px; }
 .about-copy p:not(.eyebrow):not(.about-signature) { color: var(--muted); font-size: 12px; line-height: 2.1; margin-top: 24px; }
@@ -146,7 +145,6 @@ h2 { color: var(--wine); font-size: clamp(38px, 4vw, 54px); line-height: 1.02; }
   .contact-actions { flex-direction: column; align-items: stretch; max-width: 320px; margin: 0 auto; }
 }
 
-
 /* LOGO OFICIAL NAVI JOIAS */
 .site-header { min-height: 100px; padding: 12px 6%; }
 .brand { display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
@@ -160,3 +158,61 @@ h2 { color: var(--wine); font-size: clamp(38px, 4vw, 54px); line-height: 1.02; }
   .hero-stamp { width: 190px; height: 140px; }
   .footer-logo { width: 92px; height: 68px; }
 }
+
+
+/* AMPLIAÇÃO DAS FOTOS - NAVI JOIAS */
+
+.imagem-modal {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  inset: 0;
+  background: rgba(20, 10, 15, 0.92);
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.imagem-modal.ativo {
+  display: flex;
+}
+
+.imagem-modal img {
+  max-width: 90%;
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  animation: aparecerImagem 0.3s ease;
+}
+
+.fechar-modal {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 42px;
+  cursor: pointer;
+}
+
+@keyframes aparecerImagem {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .imagem-modal img {
+    max-width: 96%;
+    max-height: 80vh;
+  }
+}
+
