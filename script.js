@@ -39,7 +39,7 @@ const products = [
     image: "Imagens/Colar_esfera_P.jpeg"
   },
   {
-    id: 6, name: "Mini Argola Zircônia Colorido", category: "brincos", price: "R$ 29,90",
+    id: 6, name: "Mini Argola Zircônia Colorido", category: "brincos", price: "R$ 19,90",
     description: "",
     tag: "",
     image: "Imagens/Brinco_argolinha_colorido.jpeg"
