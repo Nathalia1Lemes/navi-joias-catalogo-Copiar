@@ -348,7 +348,7 @@ const products = [
     id: 57, name: "Colar Trevo Aço Inoxidavel - Branco", category:"colares", price: "32,00",
     description: "",
     tag: "",
-    image:"Imagens/Colar Trevo Branco.jpeg"
+    image:"Imagens/Colar trevo Branco.jpeg"
   }
 ];
 
