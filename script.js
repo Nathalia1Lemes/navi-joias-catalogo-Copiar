@@ -265,8 +265,91 @@ const products = [
     description: "",
     tag: "",
     image:"Imagens/Anel_coração_dourado.jpeg"
+  },
+  {
+    id: 44 , name: "Anel de Cereja Zircônia - Regulavél", category: "aneis", price: "26,00",
+    description: "",
+    tag: "",
+    image:"Imagens/Anel cereja.jpeg"
+  },
+  {
+    id: 45, name: "Bracelete Inspiração Cartier Aço Inoxidável", category: "braceletes", price: "34,00",
+    description: "",
+    tag: "",
+    image:"Imagens/Bracelete Insp.jpeg"
+  },
+  {
+    id: 46, name: "Brinco Alongado Zircônia - Prata", category: "brincos", price: "25,00",
+    description: "",
+    tag: "",
+    image:"Imagens/Brinco Brilho Prata.jpeg"
+  },
+  {
+    id: 47, name: "Brinco Cereja", category: "brincos", price: "22,00",
+    description: "",
+    tag: "",
+    image:"Imagens/Brinco Cereja.jpeg"
+  },
+  {
+    id: 48, name: "Colar Riviera Aço Inoxidável", category: "colares", price: "52,90",
+    description: "",
+    tag: "",
+    image:"Imagens/Colar riviera.jpeg"
+  },
+  {
+    id: 49, name: "Relógio Impiração Bicolor", category: "relogios", price: "79,99",
+    description: "",
+    tag: "",
+    image:"Imagens/Relogio Bicolor.jpeg"
+  },
+  {
+    id: 50, name: "Brinco Alongado Zircônia - Dourado", category: "brincos", price: "25,00",
+    description: "",
+    tag: "",
+    image:"Imagens/Brinco Brilho Dourado.jpeg"
+  },
+  {
+    id: 51, name: "Pulseira Riviera Aço Inoxidável", category: "pulseiras", price: "39,99",
+    description: "",
+    tag: "",
+    image:"Imagens/Pulseira Riviera.jpeg"
+  },
+  {
+    id: 52, name: "Conjunto Inspiração SW", category: "conjuntos", price: "54,99",
+    description: "",
+    tag: "",
+    image:"Imagens/Cunjunto Pedra.jpeg"
+  },
+  {
+    id: 53, name: "Relogio Courino Inspiração Cartier", category: "relogios", price: "69,90",
+    description: "",
+    tag: "",
+    image:"Imagens/Relogio Bulseira de couro.jpeg"
+  },
+  {
+    id: 54, name: "Colar Trevo Aço Inoxidavel - Preto", category:"colares", price: "32,00",
+    description: "",
+    tag: "",
+    image:"Imagens/Colar trevo petro.jpeg"
+  },
+  {
+    id: 55, name: "Relogio Bracelete Inspiração", category:"relogios", price: "59,90",
+    description: "",
+    tag: "",
+    image:"Imagens/Relogio Bracelete.jpeg"
+  },
+  {
+    id: 56, name: "Conjunto Trevo Aço Inoxidável - Branco", category:"conjuntos", price: "42,99",
+    description: "",
+    tag: "",
+    image:"Imagens/Conjunto Trevo Branco.jpeg"
+  },
+  {
+    id: 57, name: "Colar Trevo Aço Inoxidavel - Branco", category:"colares", price: "32,00",
+    description: "",
+    tag: "",
+    image:"Imagens/Colar Trevo Branco.jpeg"
   }
-
 ];
 
 const categoryNames = {
